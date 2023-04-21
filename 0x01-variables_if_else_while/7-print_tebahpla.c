@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: prints the lowercase alphabet in reverse,
- * followed by a new line.
+ * Description: prints all single digit number of base 10
+ * starting from 0, followed by a new line
  * Return: 0
  */
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 	while (c >= 'a')
 	{
 		putchar(c);
-		c++;
+		c--;
 	}
 
 	putchar('\n');
