@@ -6,10 +6,10 @@
 #include <stdio.h>
 
 /**
- * main - lists all the natural numbers below 1024 (exclude)
- *        that are multiples of 3 or 5.
- *
- * Return: Always 0.
+ * main - Entry point
+ * Description: list all the natural numbers below 1024 (exclude)
+ * that are multiples of 3 or 5.
+ * Return: Aalways 0.
  */
 int main(void)
 {
