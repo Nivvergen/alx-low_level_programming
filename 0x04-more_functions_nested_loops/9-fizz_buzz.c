@@ -1,8 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - prints the numbers from 1 to 100, followed by a new line
+ * main - prints the numbers from 1-100 but multiples of three,
+ * Fizz is printed in place of the no, Buss in place of multiples,
+ * of 5 and FizzBuzz for both five and three.
  *
  * Return: Always 0 (success)
  */
@@ -14,11 +15,11 @@ int main(void)
 	{
 		if ((n % 3) == 0 && (n % 5) == 0)
 		{
-			printf("fizzBuzz");
+			printf("FizzBuzz");
 		}
 		else if ((n % 3) == 0)
 		{
-			printf("fizz");
+			printf("Fizz");
 		}
 		else if ((n % 5) == 0)
 		{
